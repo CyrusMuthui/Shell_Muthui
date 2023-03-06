@@ -1,3 +1,3 @@
-**Shell Scripting
+**Shell Scripting**
 BY:
-***Cyrus Muthui
+***Cyrus Muthui***
