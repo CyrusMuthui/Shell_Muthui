@@ -1,0 +1,15 @@
+#!/bin/bash
+echo -e "Please input the name of the file: \c "
+read file1
+if [ -f $file1 ]
+then
+  if [ -w $file1 ]
+  then
+  cat >> $file1
+  else
+  echo "$file1 is not write-able"
+  fi
+ else
+ echo "There is no such file as $file1"
+ fi
+ 
