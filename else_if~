@@ -1,0 +1,11 @@
+#!/bin/bash
+read int1 int2
+if [$int1 -gt $int2]
+then
+echo $int1 is greater than $int2
+elif [$int1 -lt $int2]
+then
+echo $int2 is greater than $int1
+else
+echo $int1 and $int2 are equal.
+fi
