@@ -1,0 +1,6 @@
+#!/bin/bash
+echo Enter the value of an angle in radians
+read num
+echo "scale = 5; s($num)" | bc -l
+
+
