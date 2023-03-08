@@ -1,0 +1,15 @@
+#!/bin/bash
+echo -e "Type in a character: \c"
+read char
+case $char in
+[a-z])
+echo "That is a small letter kijana";;
+[A-Z])
+echo "That is a capital";;
+[0-9])
+echo "A number it is";;
+?)
+echo "A special character";;
+*)
+echo "What is that, really?";;
+esac
