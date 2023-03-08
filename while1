@@ -1,0 +1,9 @@
+#!/bin/bash
+echo -e "Enter the number of enemies: \c"
+read num
+while (( $num >= 1))
+do
+((--num))
+echo "The number of enemies is now equal to $num"
+sleep 2
+done
