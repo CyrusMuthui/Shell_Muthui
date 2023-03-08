@@ -1,0 +1,7 @@
+#!/bin/bash
+echo -e "Enter the number of births: \c"
+read num
+for var in $( eval echo {1..$num})
+do
+echo $var
+done
