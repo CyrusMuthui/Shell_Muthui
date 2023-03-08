@@ -1,5 +1,0 @@
-#!/bin/bash
-while IFS= ' ' read -r p
-do
-    echo $p
-done < read_file
