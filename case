@@ -1,0 +1,15 @@
+#!/bin/bash
+echo -e "Give the man a name: \c"
+read name
+case $name in
+"The tickler")
+echo "That is enough" ;;
+"Amory Lotch")
+echo "A girl cannot tell a man when a did is due" ;;
+"Tywin")
+echo "This a man cannot do" ;;
+"Jaqen")
+echo "A girl lacks honour" ;;
+*)
+echo "This wasn't part of our bargain" ;;
+esac
