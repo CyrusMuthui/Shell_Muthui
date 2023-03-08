@@ -1,0 +1,10 @@
+#!/bin/bash
+echo -e 'Give the number of enemies you have: \c'
+read num
+until (( $num < 1 ))
+do
+echo "You only have $num enemies"
+(( --num ))
+sleep 2
+done
+echo "Jesus loves you"
