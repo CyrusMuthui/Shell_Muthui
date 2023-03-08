@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -e "Enter the number of enemies you want to be killed: \c"
+read var
+for ((king = $var; king > 0; king--))
+do
+    echo $king
+done
+
