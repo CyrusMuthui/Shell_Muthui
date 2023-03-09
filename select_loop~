@@ -1,6 +1,0 @@
-#!/bin/bash
-select name in Cyrus Muthui King Cyro
-do
-    echo Select number between 1 and 4
-echo $name is the best
-done
