@@ -1,0 +1,11 @@
+#!/bin/bash
+echo -e "Which number do you prefer the least? \c"
+read num
+for ((i=0; i<=10; i++))
+do
+if (( i == $num ))
+then
+continue
+fi
+echo You still prefer $i
+done
