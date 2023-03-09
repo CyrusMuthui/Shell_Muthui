@@ -1,0 +1,11 @@
+#!/bin/bash
+echo -e "Which number do you prefer between 1 and 10: \c"
+read num
+for ((i=0; i<=10; i++))
+do
+if (( i == $num ))
+then
+break
+fi
+done
+echo "You prefer $num"
