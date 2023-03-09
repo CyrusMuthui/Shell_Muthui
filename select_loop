@@ -1,0 +1,14 @@
+#!/bin/bash
+select name in Cyrus Muthui King Cyro
+do
+    case $name in
+	Cyrus)
+	    echo Cyrus is the best;;
+	Muthui)
+	    echo Muthui is the best;;
+	King)
+	    echo King is the best;;
+	Cyro)
+	    echo Cyro is the best;;
+    esac
+done
