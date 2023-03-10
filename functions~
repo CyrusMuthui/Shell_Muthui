@@ -1,0 +1,16 @@
+#!/bin/bash
+usage(){
+echo "You haven't provided a name"
+echo "Usage: $0 name"
+}
+jaqen() {
+local file="$1"
+[[ -f $file ]] && return 0 || return 1
+}
+[[ $# -eq 0 ]] && usage
+if ( jaqen "$1" )
+then
+echo "$file exists"
+else
+echo "$file doesn't exist"
+fi
