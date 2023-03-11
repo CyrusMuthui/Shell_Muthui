@@ -1,0 +1,18 @@
+#!/bin/bash
+echo "This represents the rules of the red god"
+hello(){
+echo "The red god demands what is his"
+}
+readonly -f hello
+hello
+echo -e "Do you wish to change that? \c"
+read ans
+if (( $ans == yes ))
+then
+hello(){
+echo "Let me try to change that"
+}
+echo "No one can change that. In fact, now he's been given another name"
+else
+    echo "Good, now you know the rules of Bravos"
+fi
