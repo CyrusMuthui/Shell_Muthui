@@ -14,3 +14,4 @@ echo "$1 exists"
 else
 echo "$1 doesn't exist"
 fi
+#Using OR
